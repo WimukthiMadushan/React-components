@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 10px;
+  gap: 10px;
+}
+.item {
+  justify-items: center;
+}
