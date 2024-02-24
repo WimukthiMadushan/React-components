@@ -1,0 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Flogin-background&psig=AOvVaw14Tdus2cL6IuwzheyEc0Tu&ust=1708845648955000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDN0KC4w4QDFQAAAAAdAAAAABAE);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: fit-content;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  color: black;
+  font-size: 48px;
+  font-weight: 700;
+}
+.underline {
+  width: 61px;
+  height: 6px;
+  background: #000000;
+  border-radius: 9px;
+}
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.inputs span {
+  color: rgb(110, 13, 13);
+  text-align: center;
+  font-size: 17px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  background: white;
+  border-radius: 6px;
+}
+.input img {
+  margin: 0px 30px;
+}
+
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 19px;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.login button {
+  padding: 8px;
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
